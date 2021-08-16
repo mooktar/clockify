@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: hsla(64, 41%, 92%, 1);
+  
+    background: linear-gradient(
+      315deg,
+      hsla(64, 41%, 92%, 1) 0%,
+      hsla(196, 83%, 84%, 1) 50%,
+      hsla(305, 75%, 83%, 1) 100%
+    );
+  
+    background: -moz-linear-gradient(
+      315deg,
+      hsla(64, 41%, 92%, 1) 0%,
+      hsla(196, 83%, 84%, 1) 50%,
+      hsla(305, 75%, 83%, 1) 100%
+    );
+  
+    background: -webkit-linear-gradient(
+      315deg,
+      hsla(64, 41%, 92%, 1) 0%,
+      hsla(196, 83%, 84%, 1) 50%,
+      hsla(305, 75%, 83%, 1) 100%
+    );
+  
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F2F3E2", endColorstr="#B2E5F8", GradientType=1 );
+  }
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-container {
+    background: #fff;
+    padding: 2.5em 1.5em;
+    border-radius: 20px;
+}
+
+.app-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: .7em;
+}
+
+.hr-only {
+    margin-bottom: 1.4em;
+}
+
+h3.text-label {
+    font-size: 1.1em;
+    line-height: .8;
+    margin-bottom: 0.2em;
+}
+
+.item-length {
+    font-size: 2em;
+}
+
+.time-left {
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: .3em;
+}
+
+.btn {
+    font-size: 1.1em;
+}
+
+button:focus,
+button:visited {
+    box-shadow: none !important;
+}
+
+.btn-controler .btn {
+    font-size: 1.4em;
+    margin-left: 0.5em;
+    padding: 0;
+}
+
+.copy {
+    margin-top: 1.2em;
+}
